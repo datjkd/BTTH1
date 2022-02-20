@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down in HTML</title>
+<style>
+    body{
+    background-color: aqua;
+    background-size: cover;
+    font-family: arial;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: darkgray ;
+    opacity: 0.9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+ul li a{
+    text box-decoration: none ;
+    color : white;
+    display: black;
+}
+ul li a:hover{
+    background-color: lightsalmon;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a>
+        <ul>
+            <li><a href="">Team</a></li>
+            <li><a href="">Clients</a></li>
+            <li><a href="">Carrer</a></li>
+            <li><a href="">Legacy</a></li>
+        </ul>
+    </li>
+    <li><a href="">Contancts</a>
+        <ul>
+            <li><a href="">Email</a></li>
+            <li><a href="">Phone</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">LinkedIn</a></li>
+        </ul>
+    </li>
+    <li><a href="">Services</a></li>
+    <li><a href="">News </a></li>
+</ul>
+</body>
+</html>
